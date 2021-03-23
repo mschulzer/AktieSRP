@@ -110,7 +110,7 @@ function stocks_calculate_combined_return (w, x) { // w= [0.33, 0.33, 0.33], x= 
 
 
 /********************************
- * Afkast og varians for 3 aktier
+ * Afkast og varians for aktie
  ********************************
 
 var dem = [95.52, 91.68, 85.80, 83.82, 85.68, 91.00, 92.84, 98.00, 93.88, 91.12, 91.70, 87.20]
