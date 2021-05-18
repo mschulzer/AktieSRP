@@ -1,10 +1,12 @@
+// FUNKTIONER
+
 function stox_mean (x) {
   var m = 0
 
   for (var i = 0; i < x.length; i++) {
     m += x[i]
   }
-  return (m/x.length) // population or sample?
+  return (m/x.length)
 }
 
 function stox_return (x) {
@@ -43,9 +45,7 @@ function stox_covar(x, y) {
 
 
 
-/*
- * EXAMPLES
- */
+// EKSEMPLER
 
 var new_data = [13.49, 14.22, 15.42, 16.42, 15.36, 16.20, 17.21, 17.12, 19.69, 20.96, 19.88, 22.51, 22.63, 25.33, 25.05, 25.48, 25.20, 25.06, 24.40, 21.33, 19.90, 21.26, 22.71]
 
