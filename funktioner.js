@@ -38,7 +38,7 @@ function returnWeights(r, v) {
   var myW1 = 25
 /*
   for (let j = 5; j < 50; j+5) {
-    console.log('Tring: ' + j + ' and getting: ' + myMatrix.get([0,2])+myMatrix.get([0,3])*myW1)
+    console.log('Trying: ' + j + ' and getting: ' + myMatrix.get([0,2])+myMatrix.get([0,3])*myW1)
   }
   */
   w1.push(myMatrix.get([0,2])+myMatrix.get([0,3])*5)
