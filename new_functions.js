@@ -34,7 +34,7 @@ function stox_variance (x) {
 
 function stox_covar(x, y) {
   var num = 0
-  var xm = stox_mean(x)   // bør automatiseres
+  var xm = stox_mean(x)
   var ym = stox_mean(y)
 
   for (var i = 0; i < x.length; i++) {
